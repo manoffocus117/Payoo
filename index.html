@@ -8,13 +8,31 @@
             />
             <link
                   rel="shortcut icon"
-                  href="assets/logo.png"
+                  href="assets/interface.svg"
                   type="image/x-icon"
             />
             <link rel="stylesheet" href="styles/styles.css" />
             <title>Payoo</title>
       </head>
       <body>
+            <main class="container">
+                  <section class="login">
+                        <figure class="login-image">
+                              <img src="assets/main-icon.svg" alt="main icon" />
+                        </figure>
+                        <div class="login-form">
+                              <div class="form-input">
+                                    <label for="mobile-number">Mobile Number</label>
+                                    <input type="text" id="mobile-number" placeholder="Enter Mobile Number" />
+                              </div>
+                              <div class="form-input">
+                                    <label for="pin-number">4 Digit Pin</label>
+                                    <input type="text" id="pin-number" placeholder="Enter 4 Digit Pin" />
+                              </div>
+                              <button>Login</button>
+                        </div>
+                  </section>
+            </main>
             <script src="scripts/script.js"></script>
       </body>
 </html>

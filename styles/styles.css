@@ -1,13 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
 * {
       margin: 0;
       padding: 0;
       box-sizing: border-box;
 }
+
 html,
 body {
       height: 100%;
       width: 100%;
+      overflow-x: hidden;
+      font-family: "Outfit", sans-serif;
 }
+
 ul li {
       list-style: none;
+}
+
+input,
+textarea,
+button:focus {
+      outline: none;
+}
+
+main {
+      background: #f2f2f2;
+      border-radius: 15px;
+      max-width: 350px;
+      margin: 50px auto;
+      padding: 50px 30px;
+      text-align: center;
+}
+
+.login {
+}
+
+.login-image {
+      border-top: 5px solid rgb(8, 116, 242);
+      border-radius: 50%;
+      width: 170px;
+      height: 170px;
+      margin: auto;
+      padding: 25px;
+}
+
+.login-form {
+      background: #ffffff;
+      padding: 25px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 20px;
+      border-radius: 10px;
+      text-align: left;
+}
+
+.login-form input {
+      width: 100%;
+      padding: 15px;
+      border: none;
+      border-radius: 25px;
+      background: #f4f5f7;
+      font-family: "Outfit", sans-serif;
+}
+
+.login-form button {
+      padding: 15px;
+      border-radius: 25px;
+      border: none;
+      background: rgb(8, 116, 242);
+      color: #ffffff;
+      cursor: pointer;
+}
+
+.form-input {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
 }
