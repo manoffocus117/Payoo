@@ -219,3 +219,29 @@ main {
       flex-direction: column;
       gap: 10px;
 }
+
+.transfer-money {
+      margin: 0 20px;
+}
+
+.transfer-money h1 {
+      margin: 30px 20px;
+      font-size: 1.25rem;
+}
+
+.transfer-money-form {
+      border-radius: 25px;
+      padding: 1.5rem;
+      background: var(--primary-bg-color);
+      display: flex;
+      flex-direction: column;
+      gap: 1.25rem;
+}
+
+.user-number,
+.transfer-amount,
+.transfer-money-pin {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+}

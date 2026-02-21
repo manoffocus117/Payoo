@@ -220,6 +220,47 @@
                               <button id="add-money">Cash Out</button>
                         </div>
                   </section>
+                  <section class="transfer-money" id="transfer-money-section">
+                        <h1>Transfer Money</h1>
+                        <div class="transfer-money-form">
+                              <div class="user-number">
+                                    <label for="user-number"
+                                          >User Account Number</label
+                                    >
+                                    <input
+                                          type="text"
+                                          id="user-number"
+                                          inputmode="numeric"
+                                          pattern="[0-9]*"
+                                          placeholder="Enter 11 Digit Number"
+                                          required
+                                    />
+                              </div>
+                              <div class="transfer-amount">
+                                    <label for="transfer-amount"
+                                          >Amount</label
+                                    >
+                                    <input
+                                          type="text"
+                                          id="transfer-amount"
+                                          inputmode="numeric"
+                                          pattern="[0-9]*"
+                                          placeholder="Enter amount to transfer"
+                                    />
+                              </div>
+                              <div class="transfer-money-pin">
+                                    <label for="transfer-money-pin">Pin Number</label>
+                                    <input
+                                          type="text"
+                                          id="transfer-money-pin"
+                                          inputmode="numeric"
+                                          pattern="[0-9]*"
+                                          placeholder="Enter 4 digit pin number"
+                                    />
+                              </div>
+                              <button id="add-money">Send Now</button>
+                        </div>
+                  </section>
             </main>
             <script src="scripts/script.js"></script>
       </body>
