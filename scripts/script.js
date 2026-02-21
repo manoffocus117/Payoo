@@ -3,8 +3,13 @@ let pin_number_field = document.getElementById("pin-number");
 let login_button = document.getElementById("login-button");
 let login_section = document.getElementById("login");
 
+// add money section
 let add_money_option = document.getElementById("add-money-option");
 let add_money_section = document.getElementById("add-money-section");
+
+// cash out section
+let cash_out_option = document.getElementById("cash-out-option");
+let cash_out_section = document.getElementById("cash-out-section");
 
 // login system
 login_button.addEventListener("click", function () {
@@ -29,4 +34,9 @@ login_button.addEventListener("click", function () {
 // add money section 
 add_money_option.addEventListener("click", function () {
       add_money_section.style.display = "block";
+})
+
+// cash out section 
+cash_out_option.addEventListener("click", function () {
+      cash_out_section.style.display = "block";
 })
