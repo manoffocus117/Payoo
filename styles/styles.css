@@ -246,3 +246,27 @@ main {
       flex-direction: column;
       gap: 10px;
 }
+
+.get-bonus {
+      margin: 0 20px;
+}
+
+.get-bonus h1 {
+      margin: 30px 20px;
+      font-size: 18px;
+}
+
+.bonus-form {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      background: var(--primary-bg-color);
+      padding: 1.50rem;
+      border-radius: 25px;
+}
+
+.get-bonus button {
+      margin-top: 20px;
+}
+
+
