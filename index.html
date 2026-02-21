@@ -116,6 +116,69 @@
                               </div>
                         </div>
                   </section>
+                  <section class="add-money" id="add-money">
+                        <h1>Add Money</h1>
+                        <div class="add-money-form">
+                              <div class="select-bank">
+                                    <label for="select-bank"
+                                          >Select A Bank</label
+                                    >
+                                    <select name="select-bank" id="select-bank">
+                                          <option value="select a bank">
+                                                Select A Bank
+                                          </option>
+                                          <option value="Islami Bank">
+                                                Islami Bank
+                                          </option>
+                                          <option value="Sonali Bank">
+                                                Sonali Bank
+                                          </option>
+                                          <option value="Ogroni Bank">
+                                                Ogroni Bank
+                                          </option>
+                                          <option value="Jamuna Bank">
+                                                Jamuna Bank
+                                          </option>
+                                    </select>
+                              </div>
+                              <div class="account-number">
+                                    <label for="bank-account-number"
+                                          >Bank Account Number</label
+                                    >
+                                    <input
+                                          type="text"
+                                          id="bank-account-number"
+                                          inputmode="numeric"
+                                          pattern="[0-9]*"
+                                          placeholder="Enter 11 Digit Account Number"
+                                          required
+                                    />
+                              </div>
+                              <div class="amount">
+                                    <label for="add-amount"
+                                          >Amount to Add</label
+                                    >
+                                    <input
+                                          type="text"
+                                          id="add-amount"
+                                          inputmode="numeric"
+                                          pattern="[0-9]*"
+                                          placeholder="Enter Amount to Add"
+                                    />
+                              </div>
+                              <div class="add-money-pin">
+                                    <label for="add-money-pin">4 DIgit Pin</label>
+                                    <input
+                                          type="text"
+                                          id="add-money-pin"
+                                          inputmode="numeric"
+                                          pattern="[0-9]*"
+                                          placeholder="Enter 4 Digit Pin"
+                                    />
+                              </div>
+                              <button id="add-money">Add Money</button>
+                        </div>
+                  </section>
             </main>
             <script src="scripts/script.js"></script>
       </body>

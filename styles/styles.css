@@ -24,6 +24,27 @@ button:focus {
       outline: none;
 }
 
+input,
+textarea,
+select,
+button {
+      width: 100%;
+      padding: 15px;
+      border: none;
+      border-radius: 25px;
+      background: #f4f5f7;
+      font-family: "Outfit", sans-serif;
+}
+
+button {
+      padding: 15px;
+      border-radius: 25px;
+      border: none;
+      background: rgb(8, 116, 242);
+      color: #ffffff;
+      cursor: pointer;
+}
+
 main {
       background: #f2f2f2;
       border-radius: 15px;
@@ -55,24 +76,6 @@ main {
       gap: 20px;
       border-radius: 10px;
       text-align: left;
-}
-
-.login-form input {
-      width: 100%;
-      padding: 15px;
-      border: none;
-      border-radius: 25px;
-      background: #f4f5f7;
-      font-family: "Outfit", sans-serif;
-}
-
-.login-form button {
-      padding: 15px;
-      border-radius: 25px;
-      border: none;
-      background: rgb(8, 116, 242);
-      color: #ffffff;
-      cursor: pointer;
 }
 
 .form-input {
@@ -130,7 +133,7 @@ main {
 }
 
 .home-text h1 {
-      font-size: 1.50rem;
+      font-size: 1.5rem;
 }
 
 .home-text p {
@@ -157,10 +160,24 @@ main {
       height: 80px;
 }
 
+.add-money h1 {
+      margin: 30px 20px;
+}
 
+.add-money-form {
+      border-radius: 25px;
+      padding: 1.5rem; 
+      background: #ffffff;
+      display: flex;
+      flex-direction: column;
+      gap: 1.25rem;
+}
 
-
-
-
-
-
+.select-bank,
+.account-number,
+.amount,
+.add-money-pin {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+}
