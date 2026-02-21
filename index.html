@@ -72,7 +72,7 @@
                               </p>
                         </div>
                         <div class="finance-options">
-                              <div class="option">
+                              <div class="option" id="add-money-option">
                                     <img
                                           src="assets/icons/add-money.png"
                                           alt="add money"
@@ -116,7 +116,7 @@
                               </div>
                         </div>
                   </section>
-                  <section class="add-money" id="add-money">
+                  <section class="add-money" id="add-money-section">
                         <h1>Add Money</h1>
                         <div class="add-money-form">
                               <div class="select-bank">
@@ -177,6 +177,47 @@
                                     />
                               </div>
                               <button id="add-money">Add Money</button>
+                        </div>
+                  </section>
+                  <section class="cash-out" id="cash-out-section">
+                        <h1>Cash Out</h1>
+                        <div class="cash-out-form">
+                              <div class="agent-number">
+                                    <label for="agent-number"
+                                          >Bank Account Number</label
+                                    >
+                                    <input
+                                          type="text"
+                                          id="agent-number"
+                                          inputmode="numeric"
+                                          pattern="[0-9]*"
+                                          placeholder="Enter 11 Digit Account Number"
+                                          required
+                                    />
+                              </div>
+                              <div class="cash-out-amount">
+                                    <label for="out-amount"
+                                          >Amount to Out</label
+                                    >
+                                    <input
+                                          type="text"
+                                          id="out-amount"
+                                          inputmode="numeric"
+                                          pattern="[0-9]*"
+                                          placeholder="Enter Amount to Add"
+                                    />
+                              </div>
+                              <div class="cash-out-pin">
+                                    <label for="cash-out-pin">4 DIgit Pin</label>
+                                    <input
+                                          type="text"
+                                          id="cash-out-pin"
+                                          inputmode="numeric"
+                                          pattern="[0-9]*"
+                                          placeholder="Enter 4 Digit Pin"
+                                    />
+                              </div>
+                              <button id="add-money">Cash Out</button>
                         </div>
                   </section>
             </main>
