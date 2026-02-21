@@ -15,6 +15,10 @@ let cash_out_section = document.getElementById("cash-out-section");
 let transfer_money_option = document.getElementById("transfer-money-option");
 let transfer_money_section = document.getElementById("transfer-money-section");
 
+// get bonus section 
+let get_bonus_option = document.getElementById("get-bonus-option");
+let get_bonus_section = document.getElementById("get-bonus-section");
+
 // login system
 login_button.addEventListener("click", function () {
       // mobile and pin number verification
@@ -48,4 +52,9 @@ cash_out_option.addEventListener("click", function () {
 // transfer money section 
 transfer_money_option.addEventListener("click", function () {
       transfer_money_section.style.display = "block"
+})
+
+// get bonus section 
+get_bonus_option.addEventListener("click", function () {
+      get_bonus_section.style.display = "block";
 })
