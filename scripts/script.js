@@ -50,31 +50,61 @@ login_button.addEventListener("click", function () {
 // add money section 
 add_money_option.addEventListener("click", function () {
       add_money_section.style.display = "block";
+      cash_out_section.style.display = "none";
+      transfer_money_section.style.display = "none";
+      get_bonus_section.style.display = "none";
+      pay_bill_section.style.display = "none";
+      transaction_history_section.style.display = "none";
 })
 
 // cash out section 
 cash_out_option.addEventListener("click", function () {
       cash_out_section.style.display = "block";
+      add_money_section.style.display = "none";
+      transfer_money_section.style.display = "none";
+      get_bonus_section.style.display = "none";
+      pay_bill_section.style.display = "none";
+      transaction_history_section.style.display = "none";
 })
 
 // transfer money section 
 transfer_money_option.addEventListener("click", function () {
       transfer_money_section.style.display = "block"
+      add_money_section.style.display = "none";
+      cash_out_section.style.display = "none";
+      get_bonus_section.style.display = "none";
+      pay_bill_section.style.display = "none";
+      transaction_history_section.style.display = "none";
 })
 
 // get bonus section 
 get_bonus_option.addEventListener("click", function () {
       get_bonus_section.style.display = "block";
+      add_money_section.style.display = "none";
+      cash_out_section.style.display = "none";
+      transfer_money_section.style.display = "none";
+      pay_bill_section.style.display = "none";
+      transaction_history_section.style.display = "none";
 })
 
 // pay bill section 
 pay_bill_option.addEventListener("click", function () {
       pay_bill_section.style.display = "block";
+      add_money_section.style.display = "none";
+      cash_out_section.style.display = "none";
+      transfer_money_section.style.display = "none";
+      get_bonus_section.style.display = "none";
+      transaction_history_section.style.display = "none";
 })
 
 // transaction history section
 transaction_history_option.addEventListener("click", function () {
       transaction_history_section.style.display = "block";
+      add_money_section.style.display = "none";
+      cash_out_section.style.display = "none";
+      transfer_money_section.style.display = "none";
+      get_bonus_section.style.display = "none";
+      pay_bill_section.style.display = "none";
 })
 
 
