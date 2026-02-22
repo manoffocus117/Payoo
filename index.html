@@ -100,7 +100,7 @@
                                     />
                                     <span>Get Bonus</span>
                               </div>
-                              <div class="option">
+                              <div class="option" id="pay-bill-option">
                                     <img
                                           src="assets/icons/pay-bill.png"
                                           alt="pay bill"
@@ -167,7 +167,9 @@
                                     />
                               </div>
                               <div class="add-money-pin">
-                                    <label for="add-money-pin">4 DIgit Pin</label>
+                                    <label for="add-money-pin"
+                                          >4 DIgit Pin</label
+                                    >
                                     <input
                                           type="text"
                                           id="add-money-pin"
@@ -208,7 +210,9 @@
                                     />
                               </div>
                               <div class="cash-out-pin">
-                                    <label for="cash-out-pin">4 DIgit Pin</label>
+                                    <label for="cash-out-pin"
+                                          >4 DIgit Pin</label
+                                    >
                                     <input
                                           type="text"
                                           id="cash-out-pin"
@@ -237,9 +241,7 @@
                                     />
                               </div>
                               <div class="transfer-amount">
-                                    <label for="transfer-amount"
-                                          >Amount</label
-                                    >
+                                    <label for="transfer-amount">Amount</label>
                                     <input
                                           type="text"
                                           id="transfer-amount"
@@ -249,7 +251,9 @@
                                     />
                               </div>
                               <div class="transfer-money-pin">
-                                    <label for="transfer-money-pin">Pin Number</label>
+                                    <label for="transfer-money-pin"
+                                          >Pin Number</label
+                                    >
                                     <input
                                           type="text"
                                           id="transfer-money-pin"
@@ -265,9 +269,83 @@
                         <h1>Get Bonus</h1>
                         <div class="bonus-form">
                               <label for="coupon">Enter Bonus Coupon</label>
-                              <input type="text" id="coupon">
+                              <input type="text" id="coupon" />
                         </div>
                         <button>Get Bonus</button>
+                  </section>
+                  <section class="pay-bill" id="pay-bill-section">
+                        <h1>Pay Bill</h1>
+                        <div class="pay-bill-form">
+                              <div class="select-pay-option">
+                                    <label for="select-pay"
+                                          >Select To Pay</label
+                                    >
+                                    <select name="select-pay-bill" id="select-pay">
+                                          <option value="bills">
+                                                Select A Bill
+                                          </option>
+                                          <option value="internet">
+                                                Internet Bill
+                                          </option>
+                                          <option value="electricity">
+                                                Electricity Bill
+                                          </option>
+                                          <option value="water">
+                                                Water Bill
+                                          </option>
+                                          <option value="gas">
+                                                Gas Bill
+                                          </option>
+                                          <option value="education">
+                                                Education Bill
+                                          </option>
+                                          <option value="tv&telephone">
+                                                TV & Telephone Bill
+                                          </option>
+                                          <option value="insurance">
+                                                Insurance
+                                          </option>
+                                    </select>
+                              </div>
+                              <div class="account-number">
+                                    <label for="bank-account-number"
+                                          >Biller Account Number</label
+                                    >
+                                    <input
+                                          type="text"
+                                          id="bank-account-number"
+                                          inputmode="numeric"
+                                          pattern="[0-9]*"
+                                          placeholder="Enter account number"
+                                          required
+                                    />
+                              </div>
+                              <div class="amount">
+                                    <label for="add-amount"
+                                          >Amount to Pay</label
+                                    >
+                                    <input
+                                          type="text"
+                                          id="add-amount"
+                                          inputmode="numeric"
+                                          pattern="[0-9]*"
+                                          placeholder="Add Amount to pay"
+                                    />
+                              </div>
+                              <div class="add-money-pin">
+                                    <label for="add-money-pin"
+                                          >Pin Number</label
+                                    >
+                                    <input
+                                          type="text"
+                                          id="pay-bill-pin"
+                                          inputmode="numeric"
+                                          pattern="[0-9]*"
+                                          placeholder="Enter 4 Digit Pin"
+                                    />
+                              </div>
+                              <button id="pay-bill">Pay Now</button>
+                        </div>
                   </section>
             </main>
             <script src="scripts/script.js"></script>

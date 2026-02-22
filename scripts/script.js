@@ -19,6 +19,10 @@ let transfer_money_section = document.getElementById("transfer-money-section");
 let get_bonus_option = document.getElementById("get-bonus-option");
 let get_bonus_section = document.getElementById("get-bonus-section");
 
+// pay bill section 
+let pay_bill_option = document.getElementById("pay-bill-option");
+let pay_bill_section = document.getElementById("pay-bill-section");
+
 // login system
 login_button.addEventListener("click", function () {
       // mobile and pin number verification
@@ -57,4 +61,9 @@ transfer_money_option.addEventListener("click", function () {
 // get bonus section 
 get_bonus_option.addEventListener("click", function () {
       get_bonus_section.style.display = "block";
+})
+
+// pay bill section 
+pay_bill_option.addEventListener("click", function () {
+      pay_bill_section.style.display = "block";
 })

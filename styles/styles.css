@@ -270,4 +270,25 @@ main {
       margin-top: 20px;
 }
 
+.pay-bill {
+      margin: 0 20px;
+      display: none;
+}
 
+.pay-bill h1 {
+      margin: 20px 0;
+      font-size: 18px;
+}
+
+.pay-bill-form {
+      background: var(--primary-bg-color);
+      padding: 1.50rem;
+      border-radius: 25px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+}
+
+.pay-bill button {
+      margin-top: 1.25rem;
+}
