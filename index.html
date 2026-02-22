@@ -107,7 +107,7 @@
                                     />
                                     <span>Pay Bill</span>
                               </div>
-                              <div class="option">
+                              <div class="option" id="transactions-option">
                                     <img
                                           src="assets/icons/transaction.png"
                                           alt="transactions"
@@ -280,7 +280,10 @@
                                     <label for="select-pay"
                                           >Select To Pay</label
                                     >
-                                    <select name="select-pay-bill" id="select-pay">
+                                    <select
+                                          name="select-pay-bill"
+                                          id="select-pay"
+                                    >
                                           <option value="bills">
                                                 Select A Bill
                                           </option>
@@ -293,9 +296,7 @@
                                           <option value="water">
                                                 Water Bill
                                           </option>
-                                          <option value="gas">
-                                                Gas Bill
-                                          </option>
+                                          <option value="gas">Gas Bill</option>
                                           <option value="education">
                                                 Education Bill
                                           </option>
@@ -345,6 +346,21 @@
                                     />
                               </div>
                               <button id="pay-bill">Pay Now</button>
+                        </div>
+                  </section>
+                  <section
+                        class="transaction-history"
+                        id="transaction-history-section"
+                  >
+                        <h1>Transaction History</h1>
+                        <div class="transaction">
+                              <figure>
+                                    <img src="assets/icons/pay-bill.png" alt="">
+                              </figure>
+                              <div class="transaction-text">
+                                    <h3>Internet Bill</h3>
+                                    <span>Time</span>
+                              </div>
                         </div>
                   </section>
             </main>

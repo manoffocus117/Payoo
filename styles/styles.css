@@ -16,6 +16,7 @@ body {
       width: 100%;
       overflow-x: hidden;
       font-family: "Outfit", sans-serif;
+      background: var(--primary-bg-color);
 }
 
 ul li {
@@ -291,4 +292,43 @@ main {
 
 .pay-bill button {
       margin-top: 1.25rem;
+}
+
+.transaction-history {
+      margin: 0 1.25rem;
+      display: none;
+}
+
+.transaction-history h1 {
+      font-size: 1.125rem;
+      margin: 1.25rem 0;
+}
+
+.transaction {
+      background: var(--primary-bg-color);
+      padding: 1.25rem;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      gap: 1.25rem;
+      border-radius: 20px;
+}
+
+.transaction figure {
+      background: rgba(8, 8, 8, 0.15);
+      padding: 10px;
+      border-radius: 50%;
+      width: 40px;
+      height: 40px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+
+.transaction h3 {
+      font-size: 1rem;
+}
+
+.transaction span {
+      font-size: 0.875rem;
 }

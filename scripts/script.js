@@ -23,6 +23,10 @@ let get_bonus_section = document.getElementById("get-bonus-section");
 let pay_bill_option = document.getElementById("pay-bill-option");
 let pay_bill_section = document.getElementById("pay-bill-section");
 
+// transaction history section
+let transaction_history_option = document.getElementById("transactions-option");
+let transaction_history_section = document.getElementById("transaction-history-section");
+
 // login system
 login_button.addEventListener("click", function () {
       // mobile and pin number verification
@@ -67,3 +71,11 @@ get_bonus_option.addEventListener("click", function () {
 pay_bill_option.addEventListener("click", function () {
       pay_bill_section.style.display = "block";
 })
+
+// transaction history section
+transaction_history_option.addEventListener("click", function () {
+      transaction_history_section.style.display = "block";
+})
+
+
+
