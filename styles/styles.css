@@ -55,7 +55,7 @@ main {
       border-radius: 15px;
       max-width: 350px;
       margin: 50px auto;
-      padding: 20px 0 50px 0;
+      padding: 0 0 50px 0;
 }
 
 .login {
@@ -93,6 +93,7 @@ main {
       background: var(--primary-bg-color);
       padding: 50px 15px;
       border-radius: 0 0 20px 20px;
+      display: none;
 }
 
 .header {
@@ -172,7 +173,7 @@ main {
 }
 
 .add-money h1 {
-      margin: 30px 20px;
+      margin: 20px;
       font-size: 18px;
 }
 
@@ -200,7 +201,7 @@ main {
 }
 
 .cash-out h1 {
-      margin: 30px 20px;
+      margin: 20px 0;
       font-size: 18px;
 }
 
@@ -227,7 +228,7 @@ main {
 }
 
 .transfer-money h1 {
-      margin: 30px 20px;
+      margin: 20px 0;
       font-size: 1.25rem;
 }
 
@@ -254,7 +255,7 @@ main {
 }
 
 .get-bonus h1 {
-      margin: 30px 20px;
+      margin: 20px 0;
       font-size: 18px;
 }
 

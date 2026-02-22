@@ -1,7 +1,11 @@
+// demo login system
 let mobile_number_field = document.getElementById("mobile-number");
 let pin_number_field = document.getElementById("pin-number");
 let login_button = document.getElementById("login-button");
 let login_section = document.getElementById("login");
+
+// home section 
+let home_section = document.getElementById("home");
 
 // add money section
 let add_money_option = document.getElementById("add-money-option");
@@ -36,6 +40,7 @@ login_button.addEventListener("click", function () {
       if (mobile_number_value.length === 11 && pin_number_value.length === 4) {
             if (mobile_number_value && pin_number_value !== "") {
                   login_section.style.display = "none";
+                  home_section.style.display = "block";
             }
             alert("Welcome to Payoo");
       } else {
