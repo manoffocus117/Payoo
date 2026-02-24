@@ -55,61 +55,127 @@ login_button.addEventListener("click", function () {
 // add money section 
 add_money_option.addEventListener("click", function () {
       add_money_section.style.display = "block";
+      add_money_option.classList.add("option-active");
+
       cash_out_section.style.display = "none";
+      cash_out_option.classList.remove("option-active");
+
       transfer_money_section.style.display = "none";
+      transfer_money_option.classList.remove("option-active");
+
       get_bonus_section.style.display = "none";
+      get_bonus_option.classList.remove("option-active");
+
       pay_bill_section.style.display = "none";
+      pay_bill_option.classList.remove("option-active");
+
       transaction_history_section.style.display = "none";
+      transaction_history_option.classList.remove("option-active");
 })
 
 // cash out section 
 cash_out_option.addEventListener("click", function () {
       cash_out_section.style.display = "block";
+      cash_out_option.classList.add("option-active");
+
       add_money_section.style.display = "none";
+      add_money_option.classList.remove("option-active");
+
       transfer_money_section.style.display = "none";
+      transfer_money_option.classList.remove("option-active");
+
       get_bonus_section.style.display = "none";
+      get_bonus_option.classList.remove("option-active");
+
       pay_bill_section.style.display = "none";
+      pay_bill_option.classList.remove("option-active");
+
       transaction_history_section.style.display = "none";
+      transaction_history_option.classList.remove("option-active");
 })
 
 // transfer money section 
 transfer_money_option.addEventListener("click", function () {
-      transfer_money_section.style.display = "block"
+      transfer_money_section.style.display = "block";
+      transfer_money_option.classList.add("option-active");
+
       add_money_section.style.display = "none";
+      add_money_option.classList.remove("option-active");
+
       cash_out_section.style.display = "none";
+      cash_out_option.classList.remove("option-active");
+      
       get_bonus_section.style.display = "none";
+      get_bonus_option.classList.remove("option-active");
+
       pay_bill_section.style.display = "none";
+      pay_bill_option.classList.remove("option-active");
+
       transaction_history_section.style.display = "none";
+      transaction_history_option.classList.remove("option-active");
 })
 
 // get bonus section 
 get_bonus_option.addEventListener("click", function () {
       get_bonus_section.style.display = "block";
+      get_bonus_option.classList.add("option-active");
+
       add_money_section.style.display = "none";
+      add_money_option.classList.remove("option-active");
+
       cash_out_section.style.display = "none";
+      cash_out_option.classList.remove("option-active");
+
       transfer_money_section.style.display = "none";
+      transfer_money_option.classList.remove("option-active");
+
       pay_bill_section.style.display = "none";
+      pay_bill_option.classList.remove("option-active");
+
       transaction_history_section.style.display = "none";
+      transaction_history_option.classList.remove("option-active");
 })
 
 // pay bill section 
 pay_bill_option.addEventListener("click", function () {
       pay_bill_section.style.display = "block";
+      pay_bill_option.classList.add("option-active");
+
       add_money_section.style.display = "none";
+      add_money_option.classList.remove("option-active");
+
       cash_out_section.style.display = "none";
+      cash_out_option.classList.remove("option-active");
+
       transfer_money_section.style.display = "none";
+      transfer_money_option.classList.remove("option-active");
+
       get_bonus_section.style.display = "none";
+      get_bonus_option.classList.remove("option-active");
+
       transaction_history_section.style.display = "none";
+      transaction_history_option.classList.remove("option-active");
 })
 
 // transaction history section
 transaction_history_option.addEventListener("click", function () {
       transaction_history_section.style.display = "block";
+      transaction_history_option.classList.add("option-active");
+
       add_money_section.style.display = "none";
+      add_money_option.classList.remove("option-active");
+
       cash_out_section.style.display = "none";
+      cash_out_option.classList.remove("option-active");
+
       transfer_money_section.style.display = "none";
+      transfer_money_option.classList.remove("option-active");
+
       get_bonus_section.style.display = "none";
+      get_bonus_option.classList.remove("option-active");
+
       pay_bill_section.style.display = "none";
+      pay_bill_option.classList.remove("option-active");
 })
 
 
